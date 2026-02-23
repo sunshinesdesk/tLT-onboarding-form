@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>The Legit Talks - Onboarding Requirements</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fffbd7;
+      color: #333;
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h1, h2 {
+      color: #827c49;
+    }
+
+    section {
+      background: #fff27a;
+      padding: 20px;
+      margin-bottom: 25px;
+      border-radius: 8px;
+    }
+
+    label {
+      display: block;
+      margin: 8px 0;
+    }
+
+    input[type="text"],
+    input[type="url"],
+    input[type="file"],
+    textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+    }
+
+    textarea {
+      min-height: 80px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      background: #827c49;
+      color: #fff;
+      padding: 10px 18px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .submit-btn {
+      background: #827c49;
+      color: #fff;
+      padding: 14px 30px;
+      font-size: 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+footer {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.footer-left a {
+  text-decoration: none;
+  color: var(--dark);
+  font-size: 13px;
+}
+
+.footer-left a:hover {
+  text-decoration: underline;
+}
+
+.footer-right {
+  font-size: 13px;
+}
+
+.small-note {
+  opacity: 0.8;
+}
+
+    /* Progress Bar */
+    .progress-wrapper {
+      margin: 25px 0;
+    }
+
+    .progress-bar {
+      width: 100%;
+      height: 14px;
+      background: #d4cb7a;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .progress-fill {
+      height: 100%;
+      width: 0%;
+      background: #827c49;
+      transition: width 0.3s ease;
+    }
+
+    .progress-text {
+      margin-top: 6px;
+      font-size: 13px;
+      text-align: right;
+    }
+  </style>
+</head>
+
+<body>
+
+<h1>🌞 The Legit Talks – Onboarding Requirements</h1>
+
+<p>
+To ensure a structured and efficient start to Month 1, we request you to kindly share the following materials and details.
+These foundational assets help us initiate planning, content structuring, and execution smoothly.
+A detailed onboarding meeting will be scheduled separately for deeper alignment.
+</p>
+
+<!-- Progress -->
+<div class="progress-wrapper">
+  <div class="progress-bar">
+    <div class="progress-fill" id="progressFill"></div>
+  </div>
+  <div class="progress-text" id="progressText">0% completed</div>
+</div>
+
+<form name="the-legit-talks-onboarding"
+      method="POST"
+      data-netlify="true"
+      enctype="multipart/form-data">
+
+<input type="hidden" name="form-name" value="the-legit-talks-onboarding" />
+
+<!-- SECTION A -->
+<h2>SECTION A: THE LEGIT TALKS</h2>
+
+<section>
+<h2>1. Authorization & Permission</h2>
+<label><input type="checkbox" />  I confirm that Sunshine Social Desk has permission to manage The Legit Talks’ social media accounts.</label>
+</section>
+
+<section>
+<!-- 2. Account Access -->
+<h2>2. Account Access</h2>
+<label><input type="checkbox" /> Upload screenshots or credential references </label>
+<a class="btn" href="https://drive.google.com/drive/folders/13UgNJ7kDA5X_P8HiLe_kjcRPrHpD7E7f?usp=sharing" target="_blank">
+Upload screenshots to Google Drive </a>
+</section>
+
+<!-- 3. Brand Assets -->
+<section>
+<h2>3. Brand Assets</h2>
+<label><input type="checkbox" /> Logo (high-resolution PNG format)</label>
+<label><input type="checkbox" /> Logo with transparent background</label>
+<label><input type="checkbox" /> Alternate logo versions</label>
+<label><input type="checkbox" /> Brand color codes (if finalized)</label>
+<label><input type="checkbox" /> Font files</label>
+<label><input type="checkbox" /> Brand guideline or visual reference document</label>
+<label><input type="checkbox" /> Draft moodboards or internal references</label>
+
+<a class="btn" href="https://drive.google.com/drive/folders/1QT2aKnkT8HkOHcHLbPiJu_PrSYEJuZmD?usp=sharing" target="_blank">
+Upload all brand assets to Google Drive
+</a>
+</section>
+
+<section>
+<!-- 4. service & payment info -->
+<h2>4. Services & Payment Information</h2>
+<label><input type="checkbox" /> Please add payment related info for The Bridges by tLT further processes, all to be added below:  </label>
+<a class="btn" href="https://docs.google.com/document/d/1n1Iv_ciS2HPpG5EptnMspuYNBfKNaTSzwvbw40E0Cd8/edit?usp=sharing" target="_blank">
+Add all details in Google Doc </a>
+</section>
+
+<section>
+<h2>5. Additional Notes & Documents</h2>
+<label>
+<input type="checkbox"> Any notes we should be aware of
+</label>
+<textarea name="legit_additional_notes"></textarea>
+<label><input type="checkbox" /> Please add any documents, sheets or files we should have from prior teams</label>
+<a class="btn" href="https://drive.google.com/drive/folders/1pQPKcAn8k4FlOHBGo9mqwGw2TQ5cZf8E?usp=sharing" target="_blank">
+Add all details in Google Drive </a>
+</section>
+
+<!-- SECTION B -->
+<h2>SECTION B: DR. JUI – PERSONAL POSITIONING</h2>
+
+<!-- 1. Account Access -->
+<section>
+<h2>1. Account Access</h2>
+<p>If you are comfortable for us to study metrics and upload posts for you </p>
+<label><input type="checkbox" /> Instagram login credentials</label>
+<textarea placeholder="Notes about account access or syncing"></textarea>
+<label><input type="checkbox" /> Facebook login credentials (only if required)</label>
+<textarea placeholder="Notes about account access or syncing (if any)"></textarea>
+<p>if not, please share a screenshot of your dashboard from IG </p>
+<a class="btn" href="https://drive.google.com/drive/folders/1c-xFBzRAJKhSfw-0Afk-K8lR2V12eYcZ?usp=sharing" target="_blank">
+Upload in Google Drive </a>
+</section>
+
+<section>
+<!-- 2. Media & Visual Content -->
+<h2>2. Media & Visual Content</h2>
+<label><input type="checkbox" /> Any raw footage you have [b roll of work; occasional bts; clips of ace & skye; workout; lifestyle etc.]</label>
+<label><input type="checkbox" /> Any edited/half edited footage you have</label>
+<label><input type="checkbox" /> ⁠Pictures and videos for re-introduction video [clips of filming days, dentistry, entrepreneurial one, etc]</label>
+<label><input type="checkbox" /> Picture bank of past 2-3 days/special moments you want to share </label>
+<a class="btn" href="https://drive.google.com/drive/folders/1rRHAz1-xiobZzzgkDfEyLnQKxPcWvIu5?usp=sharing" target="_blank">
+Upload all medias to Google Drive
+</a>
+</section>
+
+<!-- 3. Collaboration & UGC Direction -->
+<section>
+<h2>3. Collaboration & UGC Direction</h2>
+<label><input type="checkbox" /> Add all Brands you want to work with (IG links)</label>
+<label><input type="checkbox" /> Video References (links)</label>
+<label><input type="checkbox" /> Ideas if any</label>
+<a class="btn" href="https://docs.google.com/document/d/1nEi8umsSzG1r3TXvUihi0--ZKNZPcBLd3WkSSBHwrOY/edit?usp=sharing" target="_blank">
+Upload details to Google Doc
+</a>
+</section>
+
+<!-- 4. Inspiration & Content Direction (with link) -->
+<section>
+<h2>4. Inspiration & Content Direction</h2>
+<p> (For all content types with links) </p>
+<a class="btn" href="https://docs.google.com/document/d/10WxPwhGAurHVd5eFRuJjkVZhlO_TfQjs-IGAj1IHpBI/edit?usp=sharing" target="_blank">
+Add details in Google Doc
+</a>
+</section>
+
+<!-- 5. Personal Positioning  -->
+<section>
+<h2>5. Personal Positioning - Notes</h2>
+<label>- 10 words that describe you</label>
+<label>- 5 terms you want to be known for</label>
+<label>- Core themes you want to stand for</label>
+<a class="btn" href="https://docs.google.com/document/d/1cJwqgs-cD7YxyzeSUCCiQiLL0HszyXJoRdvy-8OrqnE/edit?usp=sharing" target="_blank">
+Add in Google Doc
+</a>
+</section>
+
+<!-- 6. Media Kit & Representation Notes -->
+<section>
+<h2>6. Media Kit & Representation Notes</h2>
+<label><input type="checkbox" /> Add all your background info [education; career; etc]</label>
+<label><input type="checkbox" /> Add all work record [links & notes] (links)</label>
+<a class="btn" href="https://docs.google.com/document/d/1PvqOmMEFeGJeTfUVHhpi-FAcQxh6Zw5FTdMcs3qJU6I/edit?usp=sharing" target="_blank">
+Upload in Google Doc
+</a>
+</section>
+
+<!-- 7. Colour Options/Aesthetic of Your Page -->
+<section>
+<h2>7. Colour Options/Aesthetic of Your Page</h2>
+<label><input type="checkbox" /> Write some colour options/ attach some colour pallete pictures</label>
+<label><input type="checkbox" /> Some profile links whose page you like, not the content just the page look </label>
+<label><input type="checkbox" /> Pinterest/Other References</label>
+<a class="btn" href="https://docs.google.com/document/d/1f5RVXrdM28w7Z7yiSkp3_EjGOTlkl_tRfzeD_Mnoe88/edit?usp=sharing" target="_blank">
+Upload in Google Doc
+</a>
+</section>
+
+     <div class="contact">
+      <span>💌 sunshinesocialdesk@gmail.com </span> </br>
+      <span>📞 +91 7908741766 </span>
+    </div>
+    </br>
+
+    <div class="note">
+After completing this checklist, please download this document in pdf format and share it with us via email, while letting us know the progress you have made so that we aware of things we have/still need to work on or for any queries 💛
+    </div>
+</br>
+
+<button type="submit" class="submit-btn">Submit Onboarding Details</button>
+<button type="button" class="btn" onclick="window.print()">Download as PDF</button>
+
+</form>
+
+<p style="margin-top:20px;font-size:12px;">
+All information collected through this form is used solely for internal audit purposes by SSD and is subject to verbal confirmation from The Legit Talks.
+</p>
+
+<script>
+  const inputs = document.querySelectorAll("input, textarea");
+  const progressFill = document.getElementById("progressFill");
+  const progressText = document.getElementById("progressText");
+
+  function updateProgress() {
+    let filled = 0;
+    inputs.forEach(i => {
+      if ((i.type === "checkbox" && i.checked) || (i.value && i.type !== "checkbox")) {
+        filled++;
+      }
+    });
+
+    const percent = Math.round((filled / inputs.length) * 100);
+    progressFill.style.width = percent + "%";
+    progressText.textContent = percent + "% completed";
+  }
+
+  inputs.forEach(i => i.addEventListener("change", updateProgress));
+</script>
+
+<footer>
+  <div class="footer-left">
+    <a href="https://docs.google.com/document/d/1DTKCutR5yNTFJe2hqlFFIPTAcFQyU2d5KC8pdqut9p8/edit?usp=sharing" target="_blank">Privacy Policy</a>
+  </div>
+
+  <div class="footer-right">
+    <span class="small-note">Curated with intent, care and structure 🧡</span>
+  </div>
+</footer>
+
+</body>
+</html>
+
+
+
+
