@@ -138,10 +138,13 @@ A detailed onboarding meeting will be scheduled separately for deeper alignment.
 
 <form name="the-legit-talks-onboarding"
       method="POST"
-      data-netlify="true"
-      enctype="multipart/form-data">
+        action="/thank-you"
+        data-netlify="true"
+        netlify-honeypot="bot-field"
+        enctype="multipart/form-data">
 
-<input type="hidden" name="form-name" value="the-legit-talks-onboarding" />
+    <input type="hidden" name="form-name" value="tarkan-onboarding" />
+    <input type="hidden" name="bot-field" />
 
 <!-- SECTION A -->
 <h2>SECTION A: THE LEGIT TALKS</h2>
@@ -327,6 +330,7 @@ All information collected through this form is used solely for internal audit pu
 
 </body>
 </html>
+
 
 
 
